@@ -1,29 +1,22 @@
 "use client";
 
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React from "react";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
-import { useInView } from "react-intersection-observer";
 
 export default function Intro() {
-  const { setActiveSection } = useActiveSectionContext();
-  const { ref, inView } = useInView({
-    threshold: 0.75,
-  });
-  useEffect(() => {
-    if (inView) {
-      setActiveSection("Home");
-    }
-  }, [inView, setActiveSection]);
+  const { ref } = useSectionInView("Home");
 
   return (
     <section
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-28 relative mt-5"
+      id="home"
       ref={ref}
     >
       <div className="flex items-center justify-center">
@@ -45,20 +38,20 @@ export default function Intro() {
               priority={true}
               className="h-44 w-44 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
-            <motion.span
-              className="absolute bottom-0 right-0 text-5xl"
-              initial={{ scale: 0, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{
-                type: "spring",
-                stiffness: 125,
-                delay: 0.1,
-                duration: 0.7,
-              }}
-            >
-              👋
-            </motion.span>
           </motion.div>
+          <motion.span
+            className="absolute bottom-0 right-0 text-5xl"
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 125,
+              delay: 0.1,
+              duration: 0.7,
+            }}
+          >
+            👋
+          </motion.span>
         </div>
       </div>
       <motion.h1
