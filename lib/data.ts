@@ -1,6 +1,6 @@
 import React from "react";
 
-import corpcommentImg from "@/public/corpcomment.png";
+import foobiePandaImg from "@/public/foobiePanda.jpg";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -36,6 +36,7 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Java",
   "React",
   "Next.js",
   "Node.js",
@@ -45,16 +46,17 @@ export const skillsData = [
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
+  "ShadCN",
+  "React-Hook-Forms",
+  "SpringBoot",
 ] as const;
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "foobiePanda🐼.com",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: [
@@ -69,7 +71,7 @@ export const projectsData = [
       "Stripe API",
       "Auth0",
     ],
-    imageUrl: corpcommentImg,
+    imageUrl: foobiePandaImg,
   },
   {
     title: "rmtDev",

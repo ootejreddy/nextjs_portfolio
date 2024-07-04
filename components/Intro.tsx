@@ -1,6 +1,4 @@
 "use client";
-
-import { useActiveSectionContext } from "@/context/active-section-context";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -59,10 +57,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">
-          Hello, I'm SAI OOTEJ REDDY BACHAPALLY.
-        </span>{" "}
-        I'm a <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">Hello, I'm SAI OOTEJ REDDY.</span> I'm a{" "}
+        <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">2 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>.
       </motion.h1>
