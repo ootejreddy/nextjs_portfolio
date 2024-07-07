@@ -3,8 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import foobiePandaImg from "@/public/foobiePanda.jpg";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+// import rmtdevImg from "@/public/rmtdev.png";
+// import wordanalyticsImg from "@/public/wordanalytics.png";
+import smartStreamImg from "@/public/smartStream.jpg";
 
 export const links = [
   {
@@ -74,30 +75,32 @@ export const projectsData = [
       "Auth0",
     ],
     imageUrl: foobiePandaImg,
+    projectLink: "https://mern-foobiepanda-frontend.onrender.com",
   },
   {
-    title: "rmtDev",
+    title: "smart-stream",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Smart-Stream is a GPT-powered Netflix UI clone application developed using React.js, Tailwind CSS, and Redux Toolkit.Integrated a GPT-powered search feature, allowing users to effortlessly seek movie suggestions ",
+    tags: [
+      "React",
+      "Javascript",
+      "Tailwind",
+      "Redux-Toolkit",
+      "Firebase",
+      "GPT APIs",
+    ],
+    imageUrl: smartStreamImg,
+    projectLink: "https://smart-stream.onrender.com",
   },
 ] as const;
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor's Degree",
+    location: "Bangalore, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 6 months of studying. I immediately found a job as a web3 developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
     title: "Front-End Developer",
