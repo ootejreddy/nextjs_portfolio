@@ -17,20 +17,27 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a bachelor's degree in{" "}
-        <span className="font-medium">Computer Science</span>, I worked as a{" "}
-        <span className="font-medium">full-stack blockchain developer</span>.{" "}
+        Dynamic software engineer with a Master's in{" "}
+        <span className="font-medium">Computer Science </span>
+        specializing in{" "}
+        <span className="font-medium">cloud and software engineering</span>, and
+        a second major in <span className="font-medium">cyber security</span>{" "}
+        focused on advanced computer networking security, cyber security risk
+        policies, and information assurance. Robust experience in{" "}
+        <span className="font-medium">
+          full-stack and blockchain development
+        </span>
+        , proficient in{" "}
+        <span className="font-medium">Node.js, TypeScript, and React</span> .
+        Demonstrated expertise in improving system performance, implementing
+        secure solutions, and managing projects from conception to deployment.
+        Adept at Agile methodologies and DevOps practices, with excellent
+        problem-solving and teamwork skills.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, Express.js and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        feeling of finally figuring out a solution to a problem. I am currently
+        looking for a <span className="font-medium">full-time position</span> as
+        a software developer.
       </p>
 
       <p>
