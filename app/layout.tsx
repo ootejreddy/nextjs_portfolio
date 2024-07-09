@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SAI OOTEJ REDDY B | Portfolio",
+  title: "SAI OOTEJ REDDY| Portfolio",
   description:
     "SAI OOTEJ REDDY BACHAPALLY is a fullstack developer with over 2 years of experience",
 };
