@@ -94,27 +94,27 @@ export const projectsData = [
 ] as const;
 export const experiencesData = [
   {
-    title: "Bachelor's Degree",
-    location: "Bangalore, India",
+    title: "Master's Degree in Computer Science",
+    location: "Missouri, United States",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a web3 developer.",
+      "I am a computer science major at University of Central Missouri specializing in cloud and software engineering, with a second major in cyber security focused on advanced computer networking security, risk policies, and information assurance.",
     icon: React.createElement(LuGraduationCap),
-    date: "2021",
+    date: "2023-2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Associate Full-Stack Developer",
+    location: "Hyderabad, IN",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "At the National Payments Corporation of India, I was an Associate Full-Stack Blockchain Developer. I developed and integrated blockchain solutions with Hyperledger Fabric, optimized UI performance, and implemented security measures and automated testing.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "07/2021 - 01/2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Associate Software Engineer",
+    location: "Noida, IN",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "At Precisely, I was an Associate Software Engineer, developing Python scripts and Flask APIs for data extraction and storage, and overseeing data analysis for the CTO Dashboard project.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "03/2021 - 07/2021",
   },
 ] as const;
