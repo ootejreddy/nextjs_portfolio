@@ -55,6 +55,10 @@ export const skillsData = [
   "ShadCN",
   "React-Hook-Forms",
   "Spring Boot",
+  "Blockchain",
+  "smart contracts",
+  "Hyperledger Fabric",
+  "chaincode",
 ] as const;
 export const projectsData = [
   {
