@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "foobiePanda🐼.com",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "	Architected and developed a full-stack food ordering platform using React.js, Node.js, Express.js, and MongoDB. Enhanced user experience through efficient search, sort, filter, and pagination functionalities. Utilized API polling to provide real-time order status updates, creating a dynamic and responsive user interface that improves customer engagement and satisfaction.",
     tags: [
       "React.js",
       "Node.js",

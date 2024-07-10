@@ -17,9 +17,14 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Dynamic software engineer with a Master's in{" "}
+        Associate Full-Stack Developer with around 2 years of experience,
+        skilled in{" "}
+        <span className="font-medium">
+          Node.js, TypeScript, Java, and React
+        </span>
+        . Pursuing Master's in{" "}
         <span className="font-medium">Computer Science </span>
-        specializing in{" "}
+        focusing on{" "}
         <span className="font-medium">cloud and software engineering</span>, and
         a second major in <span className="font-medium">cyber security</span>{" "}
         focused on advanced computer networking security, cyber security risk
