@@ -101,7 +101,7 @@ export const experiencesData = [
     title: "Master's Degree in Computer Science",
     location: "Missouri, United States",
     description:
-      "I am a computer science major at University of Central Missouri specializing in cloud and software engineering, with a second major in cyber security focused on advanced computer networking security, risk policies, and information assurance.",
+      "I am a computer science major at University of Central Missouri specializing in cloud, software engineering and data engineering",
     icon: React.createElement(LuGraduationCap),
     date: "2023-2024",
   },
