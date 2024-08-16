@@ -20,21 +20,23 @@ export default function About() {
         Associate Full-Stack Developer with around 2 years of experience,
         skilled in{" "}
         <span className="font-medium">
-          Node.js, TypeScript, Java, and React
+          Node.js, TypeScript, Java, Python and React
         </span>
         . Pursuing Master's in{" "}
         <span className="font-medium">Computer Science </span>
         focusing on{" "}
-        <span className="font-medium">cloud and software engineering</span>, and
-        a second major in <span className="font-medium">cyber security</span>{" "}
-        focused on advanced computer networking security, cyber security risk
-        policies, and information assurance. Robust experience in{" "}
+        <span className="font-medium">
+          cloud, software engineering, Data Engineering
+        </span>
+        . Robust experience in{" "}
         <span className="font-medium">
           full-stack and blockchain development
         </span>
         , proficient in{" "}
-        <span className="font-medium">Node.js, TypeScript, and React</span> .
-        Demonstrated expertise in improving system performance, implementing
+        <span className="font-medium">
+          Node.js, TypeScript, Python and React
+        </span>{" "}
+        . Demonstrated expertise in improving system performance, implementing
         secure solutions, and managing projects from conception to deployment.
         Adept at Agile methodologies and DevOps practices, with excellent
         problem-solving and teamwork skills.{" "}
@@ -50,7 +52,10 @@ export default function About() {
         watching shark tank pitch stories. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">Finance, Stock market</span>.
+        <span className="font-medium">
+          Data Engineering, Finance, Stock market
+        </span>
+        .
       </p>
     </motion.section>
   );
