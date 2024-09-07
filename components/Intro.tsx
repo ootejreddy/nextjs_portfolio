@@ -77,7 +77,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
-          href={"../public/SAI_OOTEJ_REDDY_BACHAPALLY_resume.pdf"}
+          href={"/SAI_OOTEJ_REDDY_BACHAPALLY_resume.pdf"}
           className="group flex gap-2 bg-white py-3 px-7 rounded-full items-center outline-none 
           focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border-black/10"
           download={true}
