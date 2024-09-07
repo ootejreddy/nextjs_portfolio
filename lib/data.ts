@@ -98,6 +98,14 @@ export const projectsData = [
 ] as const;
 export const experiencesData = [
   {
+    title: "Web Developer Intern",
+    location: "Stamford, Connecticut, United States",
+    description:
+      "At Grow Your Business, I design and deploy responsive web pages using React, NodeJS, and Figma, improving user experience and interface consistency. I also monitor the SAC App, using Prisma for real-time data logging and dynamic web rendering.",
+    icon: React.createElement(LuGraduationCap),
+    date: "08/2024-Present",
+  },
+  {
     title: "Master's Degree in Computer Science",
     location: "Missouri, United States",
     description:
@@ -106,10 +114,10 @@ export const experiencesData = [
     date: "2023-2024",
   },
   {
-    title: "Associate Full-Stack Developer",
+    title: "Software Engineer",
     location: "Hyderabad, IN",
     description:
-      "At the National Payments Corporation of India, I was an Associate Full-Stack Blockchain Developer. I developed and integrated blockchain solutions with Hyperledger Fabric, optimized UI performance, and implemented security measures and automated testing.",
+      "At the National Payments Corporation of India, I was an Software Engineer. I developed and integrated blockchain solutions with Hyperledger Fabric, optimized UI performance, and implemented security measures and automated testing.",
     icon: React.createElement(CgWorkAlt),
     date: "07/2021 - 01/2023",
   },
@@ -120,5 +128,13 @@ export const experiencesData = [
       "At Precisely, I was an Associate Software Engineer, developing Python scripts and Flask APIs for data extraction and storage, and overseeing data analysis for the CTO Dashboard project.",
     icon: React.createElement(FaReact),
     date: "03/2021 - 07/2021",
+  },
+  {
+    title: "Junior Software Engineer",
+    location: "Zaheerabad, Telangana, IN",
+    description:
+      "At Trident Sugars, I was an Junior Software Engineer, Developing the Customer and Distributor Management System (CDMS) for the organization using the Java Spring framework, enhancing operational efficiency and data management.",
+    icon: React.createElement(FaReact),
+    date: "06/2017 - 07/2018",
   },
 ] as const;

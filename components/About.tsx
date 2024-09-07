@@ -17,24 +17,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Associate Full-Stack Developer with around 2 years of experience,
-        skilled in{" "}
+        Software Engineer having around 4 years of experience, skilled in{" "}
         <span className="font-medium">
-          Node.js, TypeScript, Java, Python and React
+          Node.js, TypeScript, Java, Python and React.js
         </span>
         . Pursuing Master's in{" "}
         <span className="font-medium">Computer Science </span>
         focusing on{" "}
         <span className="font-medium">
-          cloud, software engineering, Data Engineering
+          cloud Computing, software engineering
         </span>
         . Robust experience in{" "}
         <span className="font-medium">
-          full-stack and blockchain development
+          full-stack, Software Engineering and blockchain development
         </span>
         , proficient in{" "}
         <span className="font-medium">
-          Node.js, TypeScript, Python and React
+          Node.js, TypeScript, Python and React.js
         </span>{" "}
         . Demonstrated expertise in improving system performance, implementing
         secure solutions, and managing projects from conception to deployment.
@@ -44,7 +43,7 @@ export default function About() {
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. I am currently
         looking for a <span className="font-medium">full-time position</span> as
-        a software developer.
+        a software Engineer.
       </p>
 
       <p>
